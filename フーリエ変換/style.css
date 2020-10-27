@@ -1,0 +1,37 @@
+﻿body {
+	background: #dddddd;
+	display: flex;	<!--直下の要素を並列にする-->
+	flex-wrap: wrap;	<!--直下の要素を折り返す-->
+}
+
+footer{
+	margin-top: auto;
+}
+
+.drop {
+	width: 300px;
+	height: 300px;
+	background: skyblue;
+	border: 3px solid;
+  margin: 0 8px 8px 0;
+	text-align: center;
+	line-height: 300px;
+	transition: 0.8s;
+	border-radius: 0%;
+}
+
+.drop:hover {
+	color: royalblue;
+}
+
+.process{
+	background: pink;
+	border-radius: 50%;
+	transform: rotate(360deg);
+}
+
+.warning{
+	background: red;
+	border-radius: 50%;
+	transform: rotate(360deg);
+}
